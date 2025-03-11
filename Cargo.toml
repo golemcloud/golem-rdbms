@@ -1,10 +1,10 @@
 [package]
-name = "wasi-rdbms"
+name = "golem-rdbms"
 version = "0.0.0"
 edition = "2021"
 license = "Apache-2.0"
 homepage = "https://golem.cloud"
-repository = "https://github.com/golemcloud/wasi-rdbms"
+repository = "https://github.com/golemcloud/golem-rdbms"
 description = "A WASM Component Model systems interface for accessing RDBMS"
 
 [lib]
