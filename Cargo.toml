@@ -1,0 +1,11 @@
+[package]
+name = "golem-rdbms"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+homepage = "https://golem.cloud"
+repository = "https://github.com/golemcloud/golem-rdbms"
+description = "WIT definitions for Golem's RDBMS support"
+
+[lib]
+path = "src/lib.rs"
