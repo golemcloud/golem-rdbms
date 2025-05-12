@@ -53,4 +53,4 @@ jobs:
         run: |
           export VERSION="${{ steps.get_version.outputs.version-without-v }}"
           sed -i "s/0.0.0/$VERSION/g" Cargo.toml
-          cargo publish -p golem-wit --all-features --allow-dirty
+          cargo publish -p golem-rdbms --all-features --allow-dirty
